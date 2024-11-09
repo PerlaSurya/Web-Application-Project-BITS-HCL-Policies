@@ -6,7 +6,7 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key'  # Replace with a strong secret key for session management
 
 # Set up API key for Gemini securely
-os.environ["API_KEY"] = 'AIzaSyByeR5l-OPfuFsHIXDFsinfHf6_lPSeuLI'  # Your actual API key
+os.environ["API_KEY"] = 'Your Secret API Key'  # Your actual API key
 genai.configure(api_key=os.environ["API_KEY"])
 
 # Load policies.txt content
